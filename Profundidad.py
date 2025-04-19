@@ -25,4 +25,5 @@ def busqueda_profundidad(mundo, posicion_inicial, paquetes):
                 visitados.add((nuevo_estado.posicion, nuevo_estado.paquetes_restantes))
 
     tiempo_fin = time.time()
-    return None, nodos_expandidos, 0, tiempo_fin - tiempo_inicial, 0
+    return None, nodos_expandidos, 0, tiempo_fin - tiempo_inicial, 0 
+ 
